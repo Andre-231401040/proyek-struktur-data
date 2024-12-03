@@ -32,7 +32,7 @@ string namaPelangganDiMeja[10];
 queue<string> pelangganDalamAntrian;
 int pilih, jumlah_makanan, jumlah_minuman;
 vector<pesanan> daftarPesanan;
-menuKomponen makanan[100], minuman[100], makananTerurut[100], minumanTerurut[100];
+menuKomponen makanan[100], minuman[100];
 
 void gotoxy(int x, int y){
     COORD coord;
