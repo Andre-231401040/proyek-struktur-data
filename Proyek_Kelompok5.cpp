@@ -5,11 +5,6 @@
 #include <windows.h>
 using namespace std;
 
-struct identitasPelanggan{
-    int nomorMeja;
-    string namaPelanggan;
-};
-
 struct pesanan{
     int nomorMeja, harga, total, jumlah;
     string namaMenu;
